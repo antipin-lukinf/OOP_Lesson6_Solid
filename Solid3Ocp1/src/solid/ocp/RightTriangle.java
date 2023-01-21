@@ -1,6 +1,6 @@
 package solid.ocp;
 
-public class RightTriangle implements Shape {
+public class RightTriangle implements Shape, Calculate {
     private int katet1;
     private int katet2;
     private double gipotenuza;
@@ -21,5 +21,10 @@ public class RightTriangle implements Shape {
 
     public double getGipotenuza() {
         return gipotenuza;
+    }
+
+    @Override
+    public double getArea() {
+        return getKatet1() * getKatet2() / 2.0;
     }
 }

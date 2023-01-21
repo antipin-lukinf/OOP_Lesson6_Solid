@@ -1,5 +1,6 @@
 package solid;
 
+import solid.ocp.Calculate;
 import solid.ocp.RightTriangle;
 import solid.ocp.Shape;
 import solid.ocp.Square;
@@ -14,14 +15,7 @@ public class Main {
         shapes.add(new Square(4));
         double sumArea = 0;
         for (Shape shape : shapes) {
-            if (shape instanceof RightTriangle) {
-                RightTriangle triangle = (RightTriangle) shape;
-                sumArea += triangle.getKatet1() * triangle.getKatet2() / 2.0;
-            }
-            if (shape instanceof Square) {
-                Square square = (Square) shape;
-                sumArea += Math.pow(square.getSide(), 2);
-            }
+            sumArea += ((Calculate) shape).getArea();
         }
 
         System.out.printf("Сумма площадей фигур равна %f \n", sumArea);

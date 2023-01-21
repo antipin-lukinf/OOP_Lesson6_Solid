@@ -1,6 +1,6 @@
 package solid.ocp;
 
-public class Square  implements Shape {
+public class Square  implements Shape, Calculate {
     private int side;
     public Square(int side) {
         this.side = side;
@@ -8,5 +8,10 @@ public class Square  implements Shape {
 
     public int getSide() {
         return side;
+    }
+
+    @Override
+    public double getArea() {
+        return side * side;
     }
 }

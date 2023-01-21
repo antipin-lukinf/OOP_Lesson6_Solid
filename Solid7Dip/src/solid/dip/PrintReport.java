@@ -2,7 +2,7 @@ package solid.dip;
 
 import java.util.List;
 
-public class PrintReport {
+public class PrintReport extends Reportable{
     public void output(List<ReportItem> items) {
         System.out.println("Output to printer");
         for (ReportItem item : items) {

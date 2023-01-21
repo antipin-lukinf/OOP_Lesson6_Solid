@@ -1,11 +1,12 @@
 package solid;
 
 import solid.lsp.Rectangle;
+import solid.lsp.Shape;
 
 public class ViewShape {
-    private Rectangle rectangle;
+    private Shape rectangle;
 
-    public ViewShape(Rectangle rectangle) {
+    public ViewShape(Shape rectangle) {
         this.rectangle = rectangle;
     }
 

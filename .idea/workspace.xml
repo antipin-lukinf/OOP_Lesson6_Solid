@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/SolidDip/SolidDip.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolidLsp1/SolidLsp1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolidLsp2/SolidLsp2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolidOcp1/SolidOcp1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolidSip1/SolidSip1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolidSrp2/SolidSrp2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/antip/IdeaProjects/OOP_Lesson6_Solid/Solid1Srp1"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
