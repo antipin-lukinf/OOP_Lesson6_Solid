@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d64af522-e754-46d0-bc87-b00823e0e636" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d64af522-e754-46d0-bc87-b00823e0e636" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="2Kg89AujcSqn5zsqvNgT1cmqda0" />
   <component name="ProjectViewState">
@@ -21,7 +19,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/antip/IdeaProjects/OOP_Lesson5_MVC/src"
+    "last_opened_file_path": "C:/Users/antip/IdeaProjects/OOP_Lesson6_Solid",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

@@ -1,7 +1,7 @@
 package personal.model;
 
 public class Note {
-    private String id = "";
+    public String id = "";
     private String heading;
     private String text;
     private String check;
@@ -55,7 +55,7 @@ public class Note {
 
     @Override
     public String toString() {
-        return String.format("Идентафикатор: %s\nЗаголовок: %s\nТекст", id, heading, text);
+        return String.format("Идентификатор: %s\nЗаголовок: %s\nТекст: %s", id, heading, text);
     }
 
     public String getCheck() {

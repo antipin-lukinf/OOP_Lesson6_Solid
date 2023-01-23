@@ -6,7 +6,7 @@ import personal.model.Note;
 import java.util.List;
 
 public class NoteController {
-    private final Repository repository;
+    private Repository repository;
 
     public NoteController(Repository repository) {
         this.repository = repository;
@@ -30,7 +30,7 @@ public class NoteController {
             }
         }
 
-        throw new Exception("User not found");
+        throw new Exception("Note not found");
     }
 
     public List<Note> readList() {
@@ -47,15 +47,14 @@ public class NoteController {
 
     private void validateNote(Note note) throws Exception {
 
-        if (note.getHeading().isEmpty()) throw new Exception("User has no FirstName");
-        if (note.getText().isEmpty()) throw new Exception("User has no LastName");
-        if (note.getHeading().contains(" ")) throw new Exception("User name has unacceptable characters");
-        if (note.getText().contains(" ")) throw new Exception("User name has unacceptable characters");
+        if (note.getHeading().isEmpty()) throw new Exception("Не введен заголовок");
+        if (note.getText().isEmpty()) throw new Exception("Не введен текст");
+
 
 
     }
     private void validateNoteId (Note note) throws Exception {
-        if (note.getId().isEmpty()) throw new Exception("User has no id");
+        if (note.getId().isEmpty()) throw new Exception("Note has no id");
         validateNote(note);
     }
 

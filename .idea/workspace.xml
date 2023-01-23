@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Notes/src/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Notes/src/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Notes/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Notes/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Notes/src/personal/controllers/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Notes/src/personal/controllers/NoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Notes/src/personal/model/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/personal/model/FileOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Notes/src/personal/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Notes/src/personal/model/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Notes/src/personal/model/NoteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Notes/src/personal/model/NoteMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Notes/src/personal/views/ViewNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Notes/src/personal/views/ViewNote.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

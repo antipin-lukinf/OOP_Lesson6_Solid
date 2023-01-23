@@ -2,11 +2,11 @@ package personal.model;
 
 public class NoteMapper {
     public String map(Note note) {
-        return String.format("%s;%s;%s;%s;", note.getId(), note.getHeading(), note.getHeading(), note.getCheck());
+        return String.format("%s;%s;%s;%s;", note.getId(), note.getHeading(), note.getText(), note.getCheck());
     }
 
     public String mapToComma (Note note) {
-        return String.format("%s,%s,%s,%s", note.getId(), note.getHeading(), note.getHeading(), note.getCheck());
+        return String.format("%s,%s,%s,%s", note.getId(), note.getHeading(), note.getText(), note.getCheck());
     }
 
     public Note map(String line) {

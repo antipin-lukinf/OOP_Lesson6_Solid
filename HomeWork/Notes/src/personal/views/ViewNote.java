@@ -10,7 +10,7 @@ public class ViewNote {
 
     private NoteController noteController;
 
-    public ViewNote(NoteController userController) {
+    public ViewNote(NoteController noteController) {
         this.noteController = noteController;
     }
 
@@ -27,7 +27,7 @@ public class ViewNote {
                         String heading = prompt("Заголовок: ");
                         String text = prompt("Текст записки: ");
                         String question = prompt("В каком формате сохранять?(введите 1, для сохранения с ,\n или 2, для сохранения с ;): ");
-                        NoteController.saveNote(new Note(heading, text), question);
+                        noteController.saveNote(new Note(heading, text), question);
                         break;
                     case READ:
                         String id = prompt("Идентификатор пользователя: ");
@@ -37,7 +37,7 @@ public class ViewNote {
 
                         break;
                     case LIST:
-                        List<Note> lst = noteController.readNote();
+                        List<Note> lst = noteController.readList();
                         lst.forEach(i -> System.out.println(i + "\n"));
                         break;
                     case UPDATE:
